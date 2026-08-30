@@ -2,26 +2,26 @@
 
 [![CI](https://github.com/Sam-DarkBall-Mods/Mavic-Drop/actions/workflows/ci.yml/badge.svg)](https://github.com/Sam-DarkBall-Mods/Mavic-Drop/actions/workflows/ci.yml)
 
-Payload and grenade systems for Mavic-class drones in Arma 3.
+Mavic Drop adds detachable grenade payloads for compatible drones. The mod
+contains the payload models, an attachment action, a selector interface and the
+drop script. A released grenade starts with the drone's current velocity and is
+also affected by wind.
 
 ## Requirements
 
 - Arma 3 2.22 or newer
-- Additional runtime dependencies declared by `CfgPatches`
 
-## Development
+## Building
 
 ```bash
+python3 -B -m unittest discover -s tests -p "test_*.py" -v
 hemtt check
 hemtt build --no-bin
-python3 -B -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-Legacy `CfgPatches`, function names, virtual PBO prefixes, and release PBO
-filenames are compatibility contracts and must not change in a patch release.
+The release keeps the old `mavic_drop.pbo` name and `mavic_drop` prefix.
 
 ## License
 
-SQF, Arma configuration, and tooling are GPL-2.0-or-later. Original Arma
-models, textures, materials, animations, and audio are APL-SA. See
-[LICENSES.md](LICENSES.md) and closer notices.
+Code and configs use GPL-2.0-or-later. Original payload models, textures and
+audio use APL-SA. See [LICENSES.md](LICENSES.md).

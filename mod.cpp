@@ -1,4 +1,9 @@
 name = "Mavic Drop 1.0.0";
+picture = "drop128.paa";
+logo = "drop128.paa";
+logoOver = "drop128.paa";
+logoSmall = "drop128.paa";
+overviewPicture = "drop128.paa";
 actionName = "GitHub";
 action = "https://github.com/Sam-DarkBall-Mods/Mavic-Drop";
 description = "Mavic Drop - Version 1.0.0";

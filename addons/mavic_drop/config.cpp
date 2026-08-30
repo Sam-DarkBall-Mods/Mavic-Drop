@@ -5,7 +5,7 @@ class cfgPatches
 	{
 		units[]={};
 		weapons[]={};
-		requiredVersion=0.1;
+		requiredVersion = 2.22;
 		requiredAddons[]=
 		{
 			"A3_Drones_F_Air_F_Gamma_UAV_01",

@@ -9,7 +9,8 @@ class cfgPatches
 		requiredAddons[]=
 		{
 			"A3_Drones_F_Air_F_Gamma_UAV_01",
-			"A3_Weapons_F_Explosives"
+			"A3_Weapons_F_Explosives",
+			"cba_common"
 		};
 	};
 };
